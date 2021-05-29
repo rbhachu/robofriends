@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://travis-ci.org/gelstudios/gitfiti) [![Netlify Status](https://api.netlify.com/api/v1/badges/fd0488e1-a9bd-4a33-8aee-d3b31954f1a9/deploy-status)](https://app.netlify.com/sites/rbhachu-robofriends/deploys)
 
-## Available Scripts
+<h1 align="center">RoboFriends</h1>
+<div align="center">
 
-In the project directory, you can run:
+:rocket: **[View Live Demo](https://rbhachu-robofriends.netlify.app/)** :rocket:<br>
 
-### `npm start`
+![RoboFriends Preview](./src/images/site-demo.gif)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Description
+<p>
 
-### `npm test`
+RoboFriends is a responsive single page web application, allowing users to filter the Robots results data via the search form. 
+<br><br>
+Created with React App, connecting to a mock API from [JSON Placeholder](http://jsonplaceholder.typicode.com) via a Fetch statement. 
+<br><br>
+The CSS is implemented with the [Tachyons](https://tachyons.io) NPM module (which uses a custom abbreviated CSS Class method to apply styling to elements).
+<br><br>
+Finally, [RoboHash](https://robohash.org) is used for generating the Robot Avatars.
+<br><br>
+This app is also 100% rated by Google Lighthouse testing (desktop).
+![RoboFriends Preview](./src/images/lighthouse-rating.png)
+<br><br>
+<i>Acknowledgements: Thanks to Andrei Neagoie and his [course](https://www.udemy.com/the-complete-web-developer-zero-to-mastery). Also, thanks to the Z2M Discord channel for providing additional support too.
+<i>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
 
-### `npm run build`
+## Features
+**Project features:**
+  <ul>
+    <li>Initial Loading Status</li>
+    <li>Filter results using search form</li>        
+    <li>Responsive</li>
+    <li>100% rated on Google Lighthouse testing (desktop)</li>
+  </ul>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies/NPM Modules
+__The following dependencies are required to run this project;__
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[React v17.02 *](https://www.npmjs.com/package/react) - Used for site framework with React. Fetch to connect to REST API and convert to useable JSON format.<br>
+[tachyons v4.12.0 *](https://www.npmjs.com/package/tachyons) - Shorthand CSS using a class based approach.
+<br>
+*_Installed automatically_<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation Instructions
+<p>Open your Code Editor and 'CD' into your working directory, then download the repo to that location, by executing the following command in your terminal.<p>
 
-### `npm run eject`
+```sh
+git clone https://github.com/rbhachu/robofriends.git
+```
+<p>Once the repo has been downloaded, 'CD' to the newly downloaded project folder ('cd robofriends'). Then execute the following command in your terminal.<p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage Instructions
+<p>Finally, to run the app, simply execute the following command in your terminal (ensuring you are in the correct project directory too).</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm start
+```
+<p>After a few seconds, your browser should automatically open to the following link;
 
-## Learn More
+[http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+and display the project in the browser.</p>
+![RoboFriends Preview](./src/images/site-preview.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Author
+👤 **Rishi Singh Bhachu**<br>
+:octocat: [GitHub](https://github.com/rbhachu)<br>
+<a target="_blank" title="https://www.linkedin.com/in/RishiSinghBhachu/" href="https://www.linkedin.com/in/RishiSinghBhachu/"><img src="https://img.shields.io/badge/-Rishi&nbsp;Singh&nbsp;Bhachu-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Issues
+Please drop me a message if you have any issues or problems running the project.
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Show your support
+Give a ⭐️ if this project helped you!
