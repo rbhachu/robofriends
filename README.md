@@ -24,7 +24,7 @@ This app is also 100% rated by Google Lighthouse testing (desktop).
 ![RoboFriends Preview](./src/images/lighthouse-rating.png)
 <br><br>
 <i>Acknowledgements: Thanks to Andrei Neagoie and his [course](https://www.udemy.com/the-complete-web-developer-zero-to-mastery). Also, thanks to the Z2M Discord channel for providing additional support too.
-<i>
+</i>
 
 </p>
 
