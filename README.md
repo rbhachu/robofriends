@@ -1,3 +1,13 @@
+# All RoboFriends Repos
+- **[RoboFriends](https://github.com/rbhachu/robofriends)** 
+- **[RoboFriends + Redux](https://github.com/rbhachu/robofriends-redux)** 
+- **[RoboFriends + Redux + Testing](https://github.com/rbhachu/robofriends-redux-testing)** 
+- **[RoboFriends + Redux + Testing + CI](https://github.com/rbhachu/robofriends-redux-testing-ci)** 
+- **[RoboFriends + Hooks](https://github.com/rbhachu/robofriends-hooks)** 
+- **[RoboFriends + Hooks + TypeScript](https://github.com/rbhachu/robofriends-hooks-typescript)** 
+
+----
+
 [![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://travis-ci.org/gelstudios/gitfiti) [![Netlify Status](https://api.netlify.com/api/v1/badges/fd0488e1-a9bd-4a33-8aee-d3b31954f1a9/deploy-status)](https://app.netlify.com/sites/rbhachu-robofriends/deploys)
 
 <h1 align="center">RoboFriends</h1>
